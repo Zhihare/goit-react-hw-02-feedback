@@ -6,7 +6,7 @@ import { Section } from "./SectionTitle/Section";
 import { AppWraper } from "./AppStyle";
 import { SiBuymeacoffee } from 'react-icons/si';
 
-export class App extends Component {
+export class App extends React.Component {
   state = {
     good: 0,
     neutral: 0,
