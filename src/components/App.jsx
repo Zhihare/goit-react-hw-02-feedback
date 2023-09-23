@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Statistics } from "./Statistics/Statistics";
 import { FeedbackOptions } from "./FeedbackOptions/FeedBackOptions";
 import { Notification } from "./Notification/Notification";
