@@ -1,9 +1,9 @@
-import { Component } from "react";
+
 import styled from 'styled-components'
 
 
 export const AppWraper = styled.div
-	`
+  `
 	position: relative;
 font-family: 'Space Mono', monospace;
 padding: 20px;

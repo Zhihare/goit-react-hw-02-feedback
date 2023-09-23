@@ -1,4 +1,4 @@
-import React from "react";
+import { Component } from "react";
 import { Statistics } from "./Statistics/Statistics";
 import { FeedbackOptions } from "./FeedbackOptions/FeedBackOptions";
 import { Notification } from "./Notification/Notification";
@@ -6,7 +6,7 @@ import { Section } from "./SectionTitle/Section";
 import { AppWraper } from "./AppStyle";
 import { SiBuymeacoffee } from 'react-icons/si';
 
-export class App extends React.Component {
+export class App extends Component {
   state = {
     good: 0,
     neutral: 0,
